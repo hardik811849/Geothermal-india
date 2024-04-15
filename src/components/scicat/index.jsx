@@ -1,0 +1,105 @@
+import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import sciBanner from "../../assets/img/Mask_Group.png";
+import techBanner from "../../assets/img/orcBanner.png";
+import InnerBanner from "../innerBanner";
+import Loader from "../layout/loader";
+
+const Scicat = () => {
+  const navigate = useNavigate();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <>
+      <Loader />
+      <InnerBanner
+        data-aos-duration="700"
+        data-aos="fade-up"
+        title="TECHNOLOGY"
+        image={techBanner}
+      />
+      <div className="body_wrap">
+        <div className="row">
+          {/* <div className='d-flex'> */}
+          <div className="col-xl-6 col-sm-12 col-12">
+            <div className="detail_scicat_">
+              <h3>
+                3-D seismic technology for enhanced geothermal systems and
+                maximum production
+              </h3>
+              <p>
+                Technology that measures in-situ 3-D minimum stress which is the
+                key rock parameter that governs drilling, fracture stimulation,
+                and permeability of geothermal rock formations.
+              </p>
+            </div>
+            <div className="details_scicat_p">
+              <p>
+                Changes in fractured rock define permeability and geothermal
+                reservoir extent, which drives reservoir performance and
+                ultimately the production of geothermal energy for optimal
+                electricity generation and maximum cash flows.
+              </p>
+            </div>
+          </div>
+          {/* <div className='col-1' /> */}
+          <div className="col-xl-6 col-sm-12 col-12">
+            <div
+              data-aos-duration="700"
+              data-aos="fade-left"
+              data-aos-delay="1000"
+              className="img_right"
+            >
+              <img className="img-fluid" src={sciBanner} alt="" />
+            </div>
+          </div>
+          {/* <div className='col-1' /> */}
+          {/* </div> */}
+          {/* <div className='bottom_section_orc'>
+            <div className='bottom_title_name'>
+              <h3>Other Technology</h3>
+            </div>
+            <div className='row '>
+              <div className='col-xl-6 col-sm-12 col-12'>
+                <div
+                  data-aos-duration='700'
+                  data-aos='fade-left'
+                  data-aos-delay='700'
+                >
+                  <img className='img-fluid' src={rightBanner} alt=''></img>
+                </div>
+              </div>
+              <div className='col-xl-6 col-sm-12 col-12'>
+                <div
+                  data-aos-duration='700'
+                  data-aos='fade-right'
+                  data-aos-delay='700'
+                  className='title_bottom'
+                >
+                  <h3>Organic Rankine Cycle (ORC) Plant</h3>
+                  <p>
+                    GT Himalia Inc. uses state-of-the-art compact Organic
+                    Rankine Cycle (ORC) geothermal power plants that optimize
+                    low-temperature geothermal resources for maximum power
+                    production and 98% uptime efficiency.
+                  </p>
+                  <span
+                    className='cursor-pointer'
+                    onClick={() => navigate('/technology/orc')}
+                  >
+                    {' '}
+                    Know More
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div> */}
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Scicat;

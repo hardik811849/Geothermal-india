@@ -1,0 +1,12 @@
+.logo-comming-soon {
+    width: 20vw;
+    height: 8vh;
+}
+
+/* For devices with width less than 600px */
+@media only screen and (max-width: 600px) {
+    .logo-comming-soon {
+        width: 40vw;
+        height: 5vh;
+    }
+}

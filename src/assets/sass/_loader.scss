@@ -1,0 +1,33 @@
+.loader-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    background: $dark;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+    opacity: 1;
+
+    &.hide {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+.logo-loader {
+    width: 21vw;
+    height: 15vh;
+  }
+  
+  /* For devices with width less than 600px */
+  @media only screen and (max-width: 600px) {
+    .logo-loader{
+      width: 35vw;
+      height: 5vh;
+    }
+  }
