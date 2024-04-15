@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.6cfe307d.css",
-    "main.js": "/static/js/main.810a998d.js",
-    "static/js/787.e3936096.chunk.js": "/static/js/787.e3936096.chunk.js",
+    "main.css": "/static/css/main.a552c19d.css",
+    "main.js": "/static/js/main.a4076ebf.js",
+    "static/js/787.bbda8d72.chunk.js": "/static/js/787.bbda8d72.chunk.js",
     "static/media/brief-bg.png": "/static/media/brief-bg.2bc7f7833ff72308403e.png",
     "static/media/esgBried.png": "/static/media/esgBried.c3aa0f6811895eee3bb2.png",
     "static/media/earth-core-structure.png": "/static/media/earth-core-structure.94c70da3770f6dfa80d2.png",
@@ -103,12 +103,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.6cfe307d.css.map": "/static/css/main.6cfe307d.css.map",
-    "main.810a998d.js.map": "/static/js/main.810a998d.js.map",
-    "787.e3936096.chunk.js.map": "/static/js/787.e3936096.chunk.js.map"
+    "main.a552c19d.css.map": "/static/css/main.a552c19d.css.map",
+    "main.a4076ebf.js.map": "/static/js/main.a4076ebf.js.map",
+    "787.bbda8d72.chunk.js.map": "/static/js/787.bbda8d72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cfe307d.css",
-    "static/js/main.810a998d.js"
+    "static/css/main.a552c19d.css",
+    "static/js/main.a4076ebf.js"
   ]
 }
